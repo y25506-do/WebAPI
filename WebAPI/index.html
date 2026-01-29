@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web API 06</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>スプラトゥーン３　武器検索</h1>
+    <h2>１から１０までの数字を選んでね（あくまで製作者が選んだもの）</h2>
+    <select id="number">
+        <option value="">番号</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    <input type="button" id="button" value="検索">
+    <input type="button" id="reset" value="リセット">
+
+    <div id="result">
+        <h2 id="name"></h2>
+        <img id="image" src="" alt="" width="300">
+        <p id="syokai"></p>
+        <p id="osusume"></p>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
